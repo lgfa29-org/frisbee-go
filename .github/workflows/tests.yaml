@@ -4,7 +4,7 @@ on: [pull_request]
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: architect-template-2odKIZZI
     steps:
       - name: Checkout
         uses: actions/checkout@v4
